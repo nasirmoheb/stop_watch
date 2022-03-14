@@ -1,0 +1,57 @@
+body{
+    background: url(images/img28.jpg) center center fixed;
+    background-size: cover;
+    color: white;
+    font-family: cursive;
+}
+#header{
+    text-align: center;
+    font-size: 7vw;
+    font-weight: bold;
+}
+#lap{
+    font-size: 40px;
+    text-align: right;
+    font-family: monospace;
+}
+#time{
+   text-align: center;
+   font-size: 60px;
+   font-family: serif;
+}
+#controlsContainer{
+  margin-top: 50px;
+}
+.control{
+    color: rgb(196, 191, 191);
+    background:linear-gradient(rgb(45, 34, 63),rgb(76, 45, 110));
+    height: 75px;
+    width: 75px;
+    border-radius: 100%;
+    text-align: center;
+    line-height: 70px;
+    font-size: 18px;
+    cursor: pointer;
+    margin: 0 50px;
+}
+.control:active{
+    background:linear-gradient(rgb(0, 0, 0),rgb(47, 47, 80));
+    color:white;
+}
+#laps{
+   max-height: 200px;
+   overflow-y: scroll;
+}
+.lap{
+    height: 50px;
+    border-bottom: 1px solid white;
+    margin: 5px;
+}
+.laptimetitle{
+  font-size: 20px;
+  float: left;
+}
+.laptime{
+  font-size: 30px;
+  float: right;  
+}

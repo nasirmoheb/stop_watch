@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Stop Watch App</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="styling.css">
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="stopwatch.js"></script>  
+</head>
+<body >
+    <div class="container-fluid">
+        <div id="header">Stop Watch</div>
+
+        <div id="lap"><span id="lapminute">00</span>:<span id="lapsecond">00</span>:<span id="lapmilisecond">00</span></div> 
+
+        <div id="time"><span id="timeminute">00</span>:<span id="timesecond"> 00</span>:<span id="timemilisecond">00</span></div> 
+
+        <div id="controlsContainer" class="row">
+              <div class="col-3 col- col-md-1">
+                   <div class="control" id="startButton">
+                       Start
+                   </div>
+                   <div class="control" id="stopButton">
+                        Stop
+                    </div>
+                    <div class="control" id="resumeButton">
+                            Resume
+                    </div>
+              </div>
+              <div class="col-3  col-md-1">
+                 <div class="control" id="lapButton">
+                      Lap
+                 </div>
+                 <div class="control" id="resetButton">
+                        Reset
+                   </div>
+              </div>
+        </div>
+       <div id="laps">
+      
+       </div>
+
+    </div>
+</body>
+</html>
